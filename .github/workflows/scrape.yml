@@ -18,7 +18,7 @@ jobs:
         bundler-cache: true
     - name: Fetch latest data
       run: |-
-        ruby digimart.rb
+        bundle exec ruby digimart.rb
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
