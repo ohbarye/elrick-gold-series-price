@@ -1,17 +1,19 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    nokogiri (1.16.7-aarch64-linux)
+    mini_portile2 (2.8.9)
+    nokogiri (1.19.4)
+      mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    nokogiri (1.16.7-arm-linux)
+    nokogiri (1.19.4-aarch64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.16.7-arm64-darwin)
+    nokogiri (1.19.4-arm-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.16.7-x86-linux)
+    nokogiri (1.19.4-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.7-x86_64-darwin)
+    nokogiri (1.19.4-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.7-x86_64-linux)
+    nokogiri (1.19.4-x86_64-linux-gnu)
       racc (~> 1.4)
     racc (1.8.1)
 
@@ -27,4 +29,4 @@ DEPENDENCIES
   nokogiri
 
 BUNDLED WITH
-   2.5.21
+  4.0.10
